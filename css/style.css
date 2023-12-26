@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    margin: 20% auto;
+}
+
+main figure {
+    width: 23%;
+    margin: 1%;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
