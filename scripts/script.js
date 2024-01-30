@@ -14,9 +14,9 @@
         var day = 24 * hours;
 
         var FinalDays = Math.floor(timer / day);
-        var FinalHours = Math.floor((timer % day) / hours)
-        var FinalMinutes = Math.floor((timer % hours) / Mintues)
-        var FinalSeconds = Math.floor(timer % Mintues)
+        var FinalHours = Math.floor((timer % day) / hours);
+        var FinalMinutes = Math.floor((timer % hours) / Mintues);
+        var FinalSeconds = Math.floor(timer % Mintues);
 
         var All = [FinalDays, FinalHours, FinalMinutes, FinalSeconds];
 
